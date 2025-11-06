@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const JoinGroup = ({ onJoin }) => {
@@ -16,7 +15,7 @@ const JoinGroup = ({ onJoin }) => {
     <div className="join-group-container">
       <h2 style={{color:"black"}}>Join a Chat Group</h2>
       <form className="join-group-form" onSubmit={handleSubmit}>
-        <input
+        <input 
           type="text"
           placeholder="Username"
           value={username}
